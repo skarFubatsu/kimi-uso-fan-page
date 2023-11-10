@@ -1,4 +1,4 @@
-# Kimi Uso FanPage ( *unofficial* )
+# KimiUso FanPage ( *unofficial* )
 
 > **Note**
 > This project is not intened for commercial gain,
