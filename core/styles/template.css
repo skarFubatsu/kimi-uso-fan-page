@@ -1,0 +1,97 @@
+:root {
+  --titleColor: #f3ecd1;
+  --titleColorHover: #fee1a9;
+  --navBGColor: #222;
+  --navGlowColor: #fcba39;
+  --navMenuItemColor: #878787;
+  --navMenuItemHoverColor: #fcb535;
+  --navMenuItemActiveColor: #de9139;
+  --bodyBGColor: #2a2929;
+}
+
+@font-face {
+  font-family: RobotoBlack;
+  src: url("../fonts/Roboto/Roboto-Black.ttf");
+}
+
+@font-face {
+  font-family: RobotoBold;
+  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+}
+
+* {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--bodyBGColor);
+}
+
+header {
+  position: fixed;
+  top: 0;
+}
+
+header > div.title {
+  position: relative;
+  top: 4px;
+  left: -3px;
+}
+
+header > div.title > a {
+  text-decoration: none;
+  font-family: RobotoBlack;
+  font-weight: 600;
+  color: var(--titleColor);
+  font-size: 2.5em;
+  transition: color 500ms;
+}
+
+header > div.title > a:hover {
+  color: var(--titleColorHover);
+}
+
+nav {
+  top: 0;
+  left: 0;
+  height: 50px;
+  width: 100%;
+  position: fixed;
+  z-index: -1;
+  background: var(--navBGColor);
+  box-shadow: 0px 10px 20px -5px var(--navGlowColor);
+}
+
+ul.navigation {
+  list-style: none;
+  display: flex;
+  justify-content: right;
+  position: relative;
+  top: -20px;
+}
+
+ul.navigation a {
+  font-family: RobotoBold;
+  text-decoration: none;
+  height: 45px;
+  margin: 10px;
+  line-height: 43px;
+  padding: 0 0.5em;
+  display: flex;
+  font-size: 1em;
+  font-weight: 600;
+  color: var(--navMenuItemColor);
+  transition: color 700ms, border-bottom 600ms, font-size 1000ms;
+}
+
+ul.navigation a:hover {
+  font-size: 1.1em;
+  color: var(--navMenuItemHoverColor);
+  border: var(--navBGColor) solid;
+  border-bottom: 5px solid var(--navMenuItemHoverColor);
+}
+
+ul.navigation .activeNow {
+    color: var(--navMenuItemActiveColor);
+}
