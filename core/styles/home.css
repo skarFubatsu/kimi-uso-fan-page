@@ -1,0 +1,12 @@
+.banner-container {
+    appearance: none;
+}
+
+.home-banner {
+    width: 100vw;
+    height: 40vw;
+    position: fixed;
+    top: 52px;
+    left: 0px;
+    z-index: 0;
+}
