@@ -7,21 +7,24 @@
   --navMenuItemHoverColor: #fcb535;
   --navMenuItemActiveColor: #de9139;
   --bodyBGColor: #2a2929;
-  --lightOnColor: #e9d061;
-  --lightOffColor: rgba(255, 0, 0, 0);
+  --lightOnColor: #fef17f;
 
   --light-width: 15%;
 }
 
-
 @font-face {
   font-family: RobotoBlack;
-  src: url("../fonts/Roboto/Roboto-Black.ttf");
+  src: url("../assets/fonts/Roboto/Roboto-Black.ttf");
 }
 
 @font-face {
   font-family: RobotoBold;
-  src: url("../fonts/Roboto/Roboto-Bold.ttf");
+  src: url("../assets/fonts/Roboto/Roboto-Bold.ttf");
+}
+
+@font-face {
+  font-family: RobotoBoldItalic;
+  src: url("../assets/fonts/Roboto/Roboto-BoldItalic.ttf");
 }
 
 * {
@@ -98,7 +101,7 @@ ul.navigation a:hover {
 }
 
 ul.navigation .activeNow {
-    color: var(--navMenuItemActiveColor);
+  color: var(--navMenuItemActiveColor);
 }
 
 .line {
@@ -111,34 +114,26 @@ ul.navigation .activeNow {
   transform: translateX(-50%) translateY(-50%);
 }
 
-.line:after {
-  position: absolute;
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background-image: repeating-linear-gradient(
-    90deg,
-    var(--lightOffColor),
-    var(--lightOffColor) 200vw,
-    var(--navGlowColor) 200vw,
-    var(--navGlowColor) calc(200vw + 5px)
-  );
-  background-size: 200% 200%;
-}
-
 .light {
   position: absolute;
   top: 0;
   height: 100%;
   left: 0;
   width: var(--light-width);
-  background: linear-gradient(90deg, transparent 0%, var(--lightOnColor) 45%, var(--lightOnColor) 55%, transparent 100%);
+  z-index: 2;
+  background: linear-gradient(
+    90deg,
+    transparent 0%,
+    var(--lightOnColor) 45%,
+    var(--lightOnColor) 55%,
+    transparent 100%
+  );
   animation: glow-bar 20s infinite ease-in-out alternate;
 }
 
 @keyframes glow-bar {
-  0%, 100% {
+  0%,
+  100% {
     left: calc(var(--light-width) / 2 * -1);
   }
   50% {
