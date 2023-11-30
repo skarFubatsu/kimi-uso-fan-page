@@ -1,25 +1,25 @@
 :root {
   --banner-width: 100vw;
   --banner-height: 40vw;
-  --title-popup-delay: 15s;
+  --title-popup-delay: 10s;
   --banner-fade-out: 2s;
 }
 
-.banner-container {
+div .banner-container {
   position: relative;
 }
 
 .home-banner {
   width: var(--banner-width);
   height: var(--banner-height);
-  position: fixed;
+  position: absolute;
   top: 52px;
   left: 0px;
-  z-index: 0;
+  z-index: -2;
 }
 
 .banner-mask {
-  position: fixed;
+  position: absolute;
   top: 52px;
   left: 0px;
   width: var(--banner-width);
@@ -30,10 +30,10 @@
 
 .text-overlay:before {
   content: "Your Lie in April";
-  position: fixed;
-  top: 20vw;
-  left: 5vw;
-  font-size: 12vw;
+  position: relative;
+  top: 2vw;
+  left: 4vw;
+  font-size: calc(1em + 5vw);
   opacity: 0;
   font-family: RobotoBold;
   animation: fade-in var(--title-popup-delay) forwards;
@@ -51,6 +51,43 @@
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
+}
+
+.overlay-quote::before {
+  content: "\"Since the day I met you, the world has become more colorful.\"";
+  position: absolute;
+  top: 14vw;
+  left: 8vw;
+  font-size: calc(0.4em + 1vw);
+  font-weight: 600;
+  opacity: 0;
+  font-family: RobotoBoldItalic;
+  animation: fade-in var(--title-popup-delay) forwards;
+  background-image: linear-gradient(
+    to right,
+    #fcba39 0,
+    #cb9b51 22%,
+    #f6e27a 45%,
+    #e4e0a1 50%,
+    #f6e27a 55%,
+    #cb9b51 78%,
+    #fcba39 100%
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.home-poster {
+  width: 24vw;
+  position: relative;
+  top: 6vw;
+  display: block;
+  margin-left: auto;
+  margin-right: 4vw;
+  border-radius: 10px;
+  animation: fade-in calc(var(--title-popup-delay) + 5s) forwards;
+  filter: grayscale(2%);
 }
 
 @keyframes fade-in {
