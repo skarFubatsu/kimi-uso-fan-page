@@ -1,6 +1,11 @@
 ---
 References:
   - "https://developer.mozilla.org/en-US/"
+  - "https://www.animeinsights.net/your-lie-in-april/"
+  - "https://myanimelist.net/anime/23273/shigatsu_wa_kimi_no_uso"
+  - "https://anilist.co/anime/20665/Shigatsu-wa-Kimi-no-Uso"
+  - "https://shigatsu-wa-kimi-no-uso.fandom.com/wiki/Shigatsu_wa_Kimi_no_Uso"
+
 ---
 Content-Sources:
   Ox000:
@@ -37,3 +42,10 @@ Content-Sources:
     Source: "https://www.pixiv.net/en/artworks/49368073"
     License: NaN
     FileName: "kimmiUsoPoster.jpg"
+
+  Ox005:
+    Title: NaN
+    Author: NaN
+    Source: "https://wall.alphacoders.com/big.php?i=633117"
+    License: NaN
+    FileName: "kaoriMiyazonoPlayingViolen.jpeg"

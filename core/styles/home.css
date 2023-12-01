@@ -3,6 +3,12 @@
   --banner-height: 40vw;
   --title-popup-delay: 10s;
   --banner-fade-out: 2s;
+  --genre-position: 2vw;
+
+  --genreBGColor: #2a2929;
+  --genreColor: #d5ab5a;
+  --posterColor: #fcba39;
+  --miscBGColor: rgba(0, 0, 0, 0.574);
 }
 
 div .banner-container {
@@ -54,7 +60,7 @@ div .banner-container {
 }
 
 .overlay-quote::before {
-  content: "\"Since the day I met you, the world has become more colorful.\"";
+  content: '"Since the day I met you, the world has become more colorful."';
   position: absolute;
   top: 14vw;
   left: 8vw;
@@ -90,6 +96,185 @@ div .banner-container {
   filter: grayscale(2%);
 }
 
+ul.genre-list {
+  position: absolute;
+  top: 36vw;
+  left: -5vw;
+  list-style-type: none;
+  color: azure;
+  display: flex;
+  flex-wrap: wrap;
+  width: 60vw;
+}
+
+li.genre {
+  transform: translateX(var(--genre-position));
+  transition: 2s all ease-in-out;
+  opacity: 0;
+  padding: 5px 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  font-size: calc(0.2em + 1vw);
+  color: var(--genreColor);
+}
+
+li.slide-genre {
+  animation: slide-in 5s forwards;
+  background-color: var(--genreBGColor);
+}
+
+.content-container {
+  position: absolute;
+  top: calc(43vw + 5px);
+  left: 0;
+  margin: 0;
+  padding: 0;
+}
+
+div.misc-data {
+  position: relative;
+  background-color: var(--miscBGColor);
+  width: 100vw;
+  height: 50vw;
+  box-shadow: 5px 5px 20px 10px #121111;
+z-index: 1;
+}
+
+div.misc-data h1 {
+  padding-top: 4vw;
+  margin: 0;
+  font-family: RobotoBlack;
+  font-size: calc(0.5em + 4vw);
+  text-align: center;
+  font-weight: 600;
+  background-image: linear-gradient(
+    to right,
+    #fcba39 0,
+    #cb9b51 22%,
+    #e3c946 40%,
+    #de9139 50%,
+    #e2c842 65%,
+    #cb9b51 78%,
+    #fcba39 100%
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+div.misc-data .misc-poster {
+  width: 24vw;
+  position: relative;
+  top: 3vw;
+  left: 3vw;
+  border-radius: 2002px;
+  filter: drop-shadow(0 0 5px var(--posterColor));
+  animation: grow 1s infinite alternate;
+}
+
+div.misc-data table {
+  font-size: calc(0.5em + 1vw);
+  position: relative;
+  top: -32vw;
+  left: calc(24vw + 10vw);
+  border-collapse: collapse;
+  border-style: hidden;
+  border-radius: 10px;
+  box-shadow: 0 0 3px 2px #e3c946;
+  text-align: center;
+}
+
+div.misc-data table th {
+  border: 1px solid #cb9b51;
+  padding: 5px 15px;
+  background-color: #2a2929;
+}
+
+div.misc-data table th.top {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+
+div.misc-data table td {
+  border: 1px solid #cb9b51;
+  padding: 5px 15px;
+}
+
+div.misc-data .iframes {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  top: -65vw;
+  margin-left: auto;
+  margin-right: 4vw;
+  width: 25vw;
+  height: 14vw;
+}
+
+div.misc-data .iframes iframe {
+  border-radius: 15px;
+  width: 25vw;
+  height: 14vw;
+  margin-bottom: 5vw;
+  filter: drop-shadow(0 0 5px var(--posterColor));
+  animation: grow 1s infinite alternate;
+}
+
+div.introduction {
+  position: absolute;
+  background: url("../assets/images/kaoriMiyazonoPlayingViolen.jpeg") no-repeat;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+}
+
+div.introduction .mask {
+  background: linear-gradient(
+      to right bottom,
+      #121111 0%,
+      rgba(0, 0, 0, 0.501) 30%,
+      transparent 100%
+    ), linear-gradient(
+      to right,
+      #121111 0%,
+      rgba(0, 0, 0, 0.671) 40%,
+      transparent 100%
+    )
+    no-repeat;
+  padding: 10px;
+}
+
+div.introduction h2 {
+  margin: 0;
+  font-family: RobotoBlack;
+  font-size: calc(0.5em + 4vw);
+  font-weight: 600;
+  background-image: linear-gradient(
+    to right,
+    #fcba39 0,
+    #cb9b51 22%,
+    #e3c946 40%,
+    #de9139 50%,
+    #e2c842 65%,
+    #cb9b51 78%,
+    #fcba39 100%
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  width: 100vw;
+  padding: 5px 15px;
+}
+
+div.introduction p {
+  width: 50vw;
+  overflow-wrap: break-word;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-size: calc(0.4em + 1vw);
+}
+
 @keyframes fade-in {
   from {
     opacity: 0;
@@ -102,5 +287,22 @@ div .banner-container {
 @keyframes banner {
   to {
     background-color: rgba(0, 0, 0, 0.544);
+  }
+}
+
+@keyframes slide-in {
+  from {
+    opacity: 0;
+    transform: translateX(var(--genre-position));
+  }
+  to {
+    opacity: 1;
+    transform: translateX(calc(var(--genre-position) + 50px));
+  }
+}
+
+@keyframes grow {
+  100% {
+    filter: drop-shadow(0 0 8px var(--posterColor));
   }
 }
