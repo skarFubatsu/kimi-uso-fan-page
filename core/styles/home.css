@@ -125,20 +125,20 @@ li.slide-genre {
 }
 
 .content-container {
-  position: absolute;
-  top: calc(43vw + 5px);
-  left: 0;
+  position: relative;
+  top: calc(7em + 4px);
+  left: -6px;
   margin: 0;
   padding: 0;
+  width: calc(100% + 12px);
 }
 
 div.misc-data {
   position: relative;
   background-color: var(--miscBGColor);
-  width: 100vw;
   height: 50vw;
-  box-shadow: 5px 5px 20px 10px #121111;
-z-index: 1;
+  box-shadow: 0px 5px 20px 10px #121111;
+  z-index: 1;
 }
 
 div.misc-data h1 {
@@ -189,6 +189,8 @@ div.misc-data table th {
   border: 1px solid #cb9b51;
   padding: 5px 15px;
   background-color: #2a2929;
+  color: #deb058;
+  font-family: RobotoBold;
 }
 
 div.misc-data table th.top {
@@ -199,6 +201,11 @@ div.misc-data table th.top {
 div.misc-data table td {
   border: 1px solid #cb9b51;
   padding: 5px 15px;
+  font-family: RobotoThinItalic;
+}
+
+div.misc-data table td.italic {
+  font-family: RobotoMediumItalic;
 }
 
 div.misc-data .iframes {
@@ -227,6 +234,7 @@ div.introduction {
   background-size: cover;
   margin: 0;
   padding: 0;
+  width: 100%;
 }
 
 div.introduction .mask {
@@ -235,17 +243,12 @@ div.introduction .mask {
       #121111 0%,
       rgba(0, 0, 0, 0.501) 30%,
       transparent 100%
-    ), linear-gradient(
-      to right,
-      #121111 0%,
-      rgba(0, 0, 0, 0.671) 40%,
-      transparent 100%
-    )
-    no-repeat;
+    ),
+    linear-gradient(to right, #121111 0%, rgba(0, 0, 0, 0.671) 40%, transparent 100%) no-repeat;
   padding: 10px;
 }
 
-div.introduction h2 {
+h2 {
   margin: 0;
   font-family: RobotoBlack;
   font-size: calc(0.5em + 4vw);
@@ -263,7 +266,6 @@ div.introduction h2 {
   color: transparent;
   background-clip: text;
   -webkit-background-clip: text;
-  width: 100vw;
   padding: 5px 15px;
 }
 
@@ -273,6 +275,115 @@ div.introduction p {
   padding-bottom: 10px;
   padding-left: 15px;
   font-size: calc(0.4em + 1vw);
+}
+
+.tip {
+  display: inline-block;
+}
+
+.tip img {
+  margin-left: 20px;
+  filter: invert(98%) sepia(82%) saturate(418%) hue-rotate(304deg) brightness(103%) contrast(91%);
+}
+
+.tip i {
+  padding-bottom: 5px;
+  position: relative;
+  top: -2px;
+  left: 2px;
+  opacity: 0.5;
+}
+
+div.metadata {
+  position: relative;
+  background: url("../assets/images/yourLieInAprilSunset.png") no-repeat;
+  top: calc(52vw + 3px);
+  background-size: cover;
+  width: 100%;
+}
+
+div.metadata .mask {
+  background: linear-gradient(to right, #121111 0%, rgba(0, 0, 0, 0.671) 40%, transparent 100%)
+    no-repeat;
+}
+
+div.metadata p {
+  width: 32vw;
+  overflow-wrap: break-word;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  font-size: calc(0.4em + 1vw);
+}
+
+.synopsis {
+  margin-left: 20px;
+  padding-top: 20px;
+}
+
+.miscellaneous {
+  position: absolute;
+  top: 20px;
+  left: calc(1em + 64vw);
+  backdrop-filter: blur(20px);
+  border-radius: 30px;
+  border: 1px solid;
+  width: 30vw;
+}
+
+.miscellaneous h2 {
+  font-size: calc(0.5em + 3vw);
+  text-align: center;
+}
+
+.miscellaneous h4 {
+  text-align: center;
+  font-size: calc(0.5em + 1vw);
+  padding: 10px;
+  margin: 0;
+}
+
+.miscellaneous ul {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 0;
+  align-items: center;
+}
+
+.miscellaneous li {
+  margin: 5px;
+  padding: 5px 10px;
+  background-color: #2a292918;
+  border-radius: 10px;
+  color: white;
+  transition: background-color 300ms, color 300ms;
+}
+
+.miscellaneous li:hover {
+  background-color: #4c3251;
+  color: #deb058;
+}
+
+.miscellaneous a {
+  text-decoration: none;
+  transition: color 300ms;
+}
+
+.conclude {
+  position: relative;
+  top: calc(51vw - 3px);
+}
+
+.conclude img {
+  width: 100%;
+  filter: blur(5px) grayscale(50%);
+}
+
+.conclude q {
+  position: absolute;
+  left: 33vw;
+  top: 20px;
+  font-size: calc(1em + 2vw);
 }
 
 @keyframes fade-in {
