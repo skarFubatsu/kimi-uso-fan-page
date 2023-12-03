@@ -1,0 +1,402 @@
+[
+  {
+    "id": 1,
+    "type": "main",
+    "name": {
+      "first": "Kousei",
+      "middle": null,
+      "last": "Arima",
+      "full": "Kousei Arima",
+      "native": "有馬公生",
+      "alternative": ["Human Metronome"]
+    },
+    "gender": "Male",
+    "dateOfBirth": {
+      "year": null,
+      "month": 3,
+      "day": 28
+    },
+    "age": "14-15",
+    "description": "<p>Kousei is formerly a child prodigy in playing piano, often dubbed as the &quot;Human Metronome&quot;. He was able to play the piano with extreme precision and discipline and thus had won many competitions across Japan. He is the son of Takahiko Arima and Saki Arima and a student attending Sumiya Junior High School who was the youngest winner of the Maihou Piano Competition.</p>",
+    "appearance": "Kousei is a teenage boy with short, black hair and dark blue eyes. He is of average height, just a bit taller than Kaori Miyazono by comparison. His school attire is marked by grey pants and coat, along with a light blue shirt and red-and-white tie. Kousei's casual clothing seems to be a dark blue polo shirt with a grey shirt over top, along with dull tan pants.",
+    "personality": "As a child, Kousei was a calm and obedient boy. When he is not hanging out with Ryota Watari, Tsubaki Sawabe and Kaori Miyazono, he spends most of his day alone in his thoughts. This dense characteristic makes him oblivious to what is going on around him. For instance, he does not notice the rivalry and resentment his fellow piano competitors had for him nor Tsubaki's crush on him. As well as not noticing the jealousy that Tsubaki was feeling about being separated from him, as she has always cared about him and been with him. He also stares at Kaori for long, thinking how great of a person she is, which she misinterprets as him having perverted thoughts of her. Despite his pessimism, Kousei is a very kind person, and isn't by any means unapproachable. His genuinely kind-hearted nature is seen in his interactions with others, and he treasures his friends. Kousei admires Kaori because she is his opposite; he wishes to become more free-spirited like her. The closer Kousei and Kaori get, the more his feelings for her deepen and the more he opens up to other people. She helps him build his confidence and successfully convinces him to perform again. This allows Kousei to learn and grow into a more confident and less depressed person. ",
+    "image": {
+      "profile": "assets/images/characters/kousei/profile.png"
+    }
+  },
+  {
+    "id": 2,
+    "type": "main",
+    "name": {
+      "first": "Kaori",
+      "middle": null,
+      "last": "Miyazono",
+      "full": "Kaori Miyazono",
+      "native": "宮園かをり",
+      "alternative": ["Free-spirit"]
+    },
+    "gender": "Female",
+    "dateOfBirth": {
+      "year": null,
+      "month": 7,
+      "day": 4
+    },
+    "age": "14",
+    "description": "<p>Kaori Miyazono is the main female protagonist of Shigatsu wa Kimi no Uso. She was the only daughter of Ryouko Miyazono and Yoshiyuki Miyazono who was a free-spirited, gifted violinist whose playing style reflected on her wonderful personality. She attended Sumiya Junior High School as a third year-student where she was in the same class as Tsubaki Sawabe. She first met Kousei Arima when she asked Tsubaki to set her up with Ryota Watari. As their friendship grew, she eventually began helping Kousei return to the piano world after his mother's death. </p>",
+    "personality": "Kaori is a free-spirited violinist whose playing style reflects on her personality. She is independent, unpredictable, and short-tempered. It is also touched upon that she is passive aggressive at times. Kaori likes to depend on herself and only herself but is very outgoing and can be seen as more of a support for others. <br/> While considered a really sloppy violin player from a technical standpoint, such as not following music score sheets the way they are written, Kaori is an amazing violinist. Noted by one of the judges at Towa Hall during the first competition of the series, her pure abilities far exceed the others in the competition. She wields a free-spirited style of performance that emphasizes emotions and artistry over the pure mechanics of music, such playing to specific tempos and dynamics originally intended by the composer. Her style of music is what rekindles Kousei's passion for the piano and inspires him to redefine himself as a musician. <br/> She loves sweets and toys, so much so that when she was temporarily set free from the hospital, her first thing to do was immediately drag Kousei with her to a store filled with sweets and toys. <br/> Despite being very quick to anger, Kaori is a very kind and empathetic person, this is shown throughout her interactions with Kousei as she would often understand how he felt over his abusive mother and how he was afraid to play the piano, her words helped Kousei get through these dark times, her compassion helped him be free from his depression. Her kindness is also shown whenever she is with children, as seen when played hopscotch with them and before that she begs Kousei to play piano with other kids in order to make them happy and finally, when she was at the mall with Kousei, she saw a lost kid and held the child's hand until her mother came to find her and was happy to see them reunite. Overall, despite her anger and somewhat abusive behavior towards Kousei, she is a sweet-natured young girl who encourages Kousei which helped him get over his piano fear. ",
+    "appearance": "Kaori Miyazono's height is slightly more than average for a 14 year old girl and has a slender figure. She has blonde wavy hair that reaches down her waist and pale indigo eyes. She is always seen to carry her violin whenever she went with her lovely pink suitcase. As a little girl, she wore a pink dress, and her hair was at chin-length. When she was 12 years old, she wore a pair of black glasses with thick rims and tied her hair in two low pigtails.",
+    "image": {
+      "profile": "assets/images/characters/kaori/profile.png"
+    }
+  },
+  {
+    "id": 3,
+    "type": "main",
+    "name": {
+      "first": "Tsubaki",
+      "middle": null,
+      "last": "Sawabe",
+      "full": "Tsubaki Sawabe",
+      "native": "澤部椿",
+      "alternative": []
+    },
+    "gender": "Female",
+    "dateOfBirth": {
+      "year": null,
+      "month": 5,
+      "day": 19
+    },
+    "age": "14",
+    "description": "<p>Tsubaki is Kousei's childhood friend and next-door neighbor, who treats him like a little brother. She is athletic and part of the softball club in school. Often dismayed at Kousei's inability to move on after his mother's death, she attempts to get him to play the piano again in order to make a clear decision about his future. </p>",
+    "appearance": "Tsubaki has straight chin-length chestnut hair that curls up at the ends where it is parted down the middle and glowing brown eyes. Tsubaki often wears the Sumiya Junior High School uniform, which consists of a blue shirt, a gray blazer and short plaid grey skirt, a red and white striped necktie, navy stockings and brown loafers. She's also seen wearing her softball uniform which consists of a loose white short-sleeved shirt with a red long-sleeved turtleneck shirt underneath and red shorts with a white stripe on each side. She also wears a white baseball cap which she wears backward and ties her hair into a small ponytail.",
+    "personality": "Tsubaki is a very kind, caring, outgoing girl who is always willing to help out her friends in their troubles. She can also be seen to get defensive of her female friends, as she was upset when Ryota Watari dumped one of them. She is also adventurous, sometimes to the point of doing dangerous things. Despite her calm and kind nature, Tsubaki is easily angered. In her childhood, when Kousei Arima was learning the piano and was never able to go out to play with her, she would often make things for him and reassured him when his mother got rid of his cat he had found. She is seen as not very girly, having short hair and being a fan of sports. Many of her classmates called her creepy because of her personality and looks, leading her to start thinking that way about herself. She was also thought of as oblivious to her own feelings as seen when she started to like Kousei, her best friend knew it all along and even dropped hints, such as the fact that she was always talking about him, worrying about him and watching out for him. For example, when Kousei was injured, Tsubaki was willing to carry Kousei on her back, despite being hurt herself. Also, Watari and Kaori Miyazono were aware of her feelings for Kousei but didn't say anything. Tsubaki secretly likes Kousei but does not possess the courage to confess to him. She has a hard time realizing her own feelings. She tries to hide her real emotions with a smile but cries in emotional outbursts. She is possessive of people who mean a lot to her (e.g. Kousei) and would respect any decision they want to make, even if it upsets her. She cares about Kousei enough to pick a high school near his so she can still see him and be there by his side.",
+    "image": {
+      "profile": "assets/images/characters/tsubaki/profile.png"
+    }
+  },
+  {
+    "id": 4,
+    "type": "main",
+    "name": {
+      "first": "Ryouta",
+      "middle": null,
+      "last": "Watari",
+      "full": "Ryouta Watari",
+      "native": "渡里 遼",
+      "alternative": []
+    },
+    "gender": "Male",
+    "dateOfBirth": {
+      "year": null,
+      "month": 4,
+      "day": 14
+    },
+    "age": "14",
+    "description": "<p>Ryouta is Kousei and Tsubaki's childhood friend who is also the captain of the school's soccer team. He is extremely popular with girls, often adopting a frivolous attitude. However, he does once in a while come up with good insight. Ryota is a bit of a play-boy. He seems to prefer girls who are <q>cute</q> seen as he comments in episode 1 that when he sees Kaori for the first time he stated that Tsubaki did a good job on finding a cute looking girl.</p>",
+    "appearance": "Watari has medium-length light brown hair that is slightly swept to the right (which makes him to look easygoing and approachable) and light caramel brown eyes. He is known for being good looking, which he uses to his advantage. Watari is of average height and build for a junior high student his age. He is also quite lean. His uniform is shown to be pictured slightly disheveled, as his tie is loose around his neck and his shirt not being tucked in, making girls swoon for him.",
+    "personality": "Watari is a kind, outgoing and friendly boy. He's a bit of a play-boy, as he seems to prefer girls who are <q>cute</q>, demonstrated as he comments that when he sees Kaori Miyazono for the first time he stated that Tsubaki Sawabe did a good job on finding a cute looking girl. Furthermore, when introduced to Hiroko Seto, he talks to her immediately, calling her <q>Onee-sama</q> and telling Kousei Arima that she's cute. Watari also seems chill on the outside shown when he loses the last game of his middle school career and comforts his team mate. Really Watari is fragile, despite his somewhat superficial and carefree attitude. He also supports his friends as shown when Arima confesses to Watari. Watari tells Arima that <q>it is up to the girl to decide whether you are worth it or not</q>. He supports Arima falling in love with Kaori even though Watari quite likes her. ",
+    "image": {
+      "profile": "assets/images/characters/ryouta/profile.png"
+    }
+  },
+  {
+    "id": 5,
+    "type": "support",
+    "name": {
+      "first": "Takeshi",
+      "middle": null,
+      "last": "Aiza",
+      "full": "Takeshi Aiza",
+      "native": "相座 武士",
+      "alternative": []
+    },
+    "gender": null,
+    "dateOfBirth": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "age": "14-15",
+    "description": "<p>Takeshi is a pianist of the same year as Kousei, who aimed to surpass him since watching him play at a young age. For that, Takeshi would even abandon a competition in Europe in order to compete with Kousei. He is a third year junior student at Kurumi-Gaoka High School and the older brother of Nagi Aiza.</p>",
+    "appearance": "Takeshi is a tall boy with spiky blond hair, blue eyes and he usually wears a stoic expression on his face. He is usually seen in his formal attire, which consists of a smart blue suit and black shoes, but is also shown in casual attire at times, consisting of a white t-shirt with an artistic design on it, and jeans.",
+    "personality": "Takeshi is a honest and straightforward guy who is very upfront about his rivalry and hatred at first for Kousei Arima. This hatred is later revealed to be an admiration of Kousei and how he looked up to Kousei as a hero. Takeshi looks up to Kousei to the extent of rebuking Kousei when he did not meet his expectations as a pianist. He then starts hating him because Kousei and his little sister, Nagi, played a duet.",
+    "image": {
+      "profile": "assets/images/characters/takeshi/profile.png"
+    }
+  },
+  {
+    "id": 6,
+    "type": "support",
+    "name": {
+      "first": "Emi",
+      "middle": null,
+      "last": "Igawa",
+      "full": "Emi Igawa",
+      "native": "井川 絵見",
+      "alternative": []
+    },
+    "gender": "Female",
+    "dateOfBirth": {
+      "year": null,
+      "month": 4,
+      "day": 19
+    },
+    "age": "15",
+    "description": "<p>Emi is a pianist of the same year as Kousei, who decided to become a pianist after listening to Kousei play at the age of 5. Emi is very emotional and her piano performance often depends on her mood on that day.</p>",
+    "appearance": "Emi is a teenage girl of average height with waist length black hair that has bangs hanging above her eyebrows, reddish-brown eyes and a thin frame. Her usual outfit is a dark red blazer and matching skirt and ballet slippers. Her blazer is left open, exposing her white collared shirt underneath. She also wears dark grey stockings. The dress she usually wears at her competitions is strapless and a lighter and brighter red than her usual clothes. It reaches her feet and is larger from her knees. She is also regarded as <q>gorgeous</q> and cute. In one episode she is wearing a red jumper, a black mini dress with black stockings and brown boots. When she is at home she wears a blue and a white t-shirt with brown cargo shorts. ",
+    "personality": "At first glance, Emi often appears as an emotionless and distant girl who has a cool and mature demeanor, in stark contrast to her temperamental and emotional playing style. Despite her calm and level-headed reactions, Emi often has harmless mood swings while thinking, wherein she appears brash and eccentric. Her moods swings usually depict her glaring at nothing, with a scary large brown stuffed bear with red eyes above her, and fire around her. Emi often stands with her arms crossed, and appears apathetic. She is often seen with Takeshi. She was described by her teacher as erratic and often lets her emotions spill easily, which influences her playing. Despite her cold and moody demeanor, she gradually warms up to Kousei and Takeshi, as seen before their last performances in the series.",
+    "image": {
+      "profile": "assets/images/characters/emi/profile.png"
+    }
+  },
+  {
+    "id": 7,
+    "type": "support",
+    "name": {
+      "first": "Nao",
+      "middle": null,
+      "last": "Kashiwagi",
+      "full": "Nao Kashiwagi",
+      "native": "柏木 奈緒",
+      "alternative": []
+    },
+    "gender": "Female",
+    "dateOfBirth": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "age": "15",
+    "description": "<p>Kashiwagi is a good friend of Tsubaki's who often gives her advice.</p>",
+    "appearance": "Nao Kashiwagi has light brown hair tied into a ponytail, brown eyes, full lips, and freckles on her face. She is frequently seen wearing her school uniform throughout the series. Her face is usually inscrutable and seems to be indifferent to other people's troubles (though her actions speak otherwise). In the anime her hair is straight, but in the manga it’s curly.",
+    "personality": "Nao Kashiwagi is a good friend of Tsubaki and is often seen by her side at school. She always tries to show Tsubaki the truth in the most blunt way, often embarrassing her. Her advice has broken Tsubaki's stubborness to admit that she has feelings for Kousei Arima. It has also been revealed that the relationship advice she gives to Tsubaki comes from her collection of BL (Boys Love; Yaoi) books.",
+    "image": {
+      "profile": "assets/images/characters/nao/profile.png"
+    }
+  },
+  {
+    "id": 8,
+    "type": "support",
+    "name": {
+      "first": "Hiroko",
+      "middle": null,
+      "last": "Seto",
+      "full": "Hiroko Seto",
+      "native": "瀬戸紘子",
+      "alternative": []
+    },
+    "gender": "Female",
+    "dateOfBirth": {
+      "year": null,
+      "month": 3,
+      "day": 25
+    },
+    "age": null,
+    "description": "<p>Hiroko is a nationally famous pianist and Saki's friend during college days. She was the one who discovered Kousei's talents in piano and suggested Saki to make him a pianist.</p>",
+    "appearance": "Hiroko is a tall, beautiful and athletically framed woman with straight shoulder-length black hair that has a single strand hanging in front of her face swept to the left and navy blue eyes.",
+    "personality": "Upbeat and exuberant on the outside, Hiroko is actually a warm-hearted and sensitive person who cares for Kousei Arima after he decides to begin to play the piano once again. She also partly feels guilty for pushing Saki Arima to make Kousei into a pianist, in the first place, which ended up pushing him into a corner. But all in all, she supports him in all his decisions and is always there for him.",
+    "image": {
+      "profile": "assets/images/characters/hiroko/profile.png"
+    }
+  },
+  {
+    "id": 9,
+    "type": "background",
+    "name": {
+      "first": "Koharu",
+      "middle": null,
+      "last": "Seto",
+      "full": "Koharu Seto",
+      "native": "瀬戸小春",
+      "alternative": []
+    },
+    "gender": "Female",
+    "dateOfBirth": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "age": null,
+    "description": "<p>Daughter of Hiroko Seto, Koharu is generally a happy and cheerful child who adores her mother. Koharu has been shown to be quite shy and hesitant around others when she first meets them, but eventually warms up to them and begins to consider them as her family, as seen when she drew a picture of Nagi Aiza playing the piano with Kousei Arima.</p>",
+    "appearance": "Koharu is a very short little girl with fair white skin and eyes different from other characters eyes with them being only black with no pupils. She has caramel blonde hair that is styled in pigtails.",
+    "personality": null,
+    "image": {
+      "profile": "assets/images/characters/koharu/profile.png"
+    }
+  },
+  {
+    "id": 10,
+    "type": "support",
+    "name": {
+      "first": "Nagi",
+      "middle": null,
+      "last": "Aiza",
+      "full": "Nagi Aiza",
+      "native": "相座凪",
+      "alternative": []
+    },
+    "gender": "Female",
+    "dateOfBirth": {
+      "year": null,
+      "month": 2,
+      "day": 13
+    },
+    "age": "13",
+    "description": "<p>Nagi is Takeshi's little sister who pretended to ask for tutelage from Hiroko in order to scout her brother's rival, Kousei. She ended up becoming Kousei's student. She often says &quot;Cliche&quot; (陳腐, Chinpu) to things that Kousei tells her. </p>",
+    "appearance": "Nagi is characterised by her blond pigtails and golden brown eyes, often seen wearing her school uniform. She is described as very cute and pretty. In her early teens, she has yet to develop a woman's body and height. She establishes the cute little sister character in the story. Hiroko also commented that she looked a lot like her brother because of her hair. During her school performance, Nagi wore a formal green dress with a bow to tie it off in the back, and a black choker with a white flower around her neck. Her hair is worn in a high side ponytail.",
+    "personality": "Nagi is stubborn and somewhat childish. She is also cunning, and hard-headed. Nagi maintains a realistic look in life and repeatedly testifies her hate for cliché. Because of her unerring piano skills, she is slightly arrogant and claims herself as the <q>Angel of Kurumi Junior High</q>. Nagi also appears to have a distaste for anyone who refers to their superiors without the appropriate honorific, as shown when Miike did not refer to Kousei as his Sensei or Senpai, instead addressing him directly as <q>Arima</q>. Nagi is often seen to have a brother-complex, seeming to be completely fixated on her brother Takeshi. She idolizes her brother, and says she's <q>constantly chasing after him, but he is always ahead of her</q>. This complex has driven her to follow in his footsteps in order to get him to notice her and to also stop her brother's own fixation on Kousei. Nagi sets up a plan to sabotage Kousei, resulting in her being <q>knocked out</q>, and Kousei having to bring her to Hiroko's house. She then proceeds to ask Hiroko to teach her. Hiroko labels it as rude to her current instructor. Yet Hiroko asks her to play something. Nagi shows she is a brilliant player, and Hiroko agrees to teach her. She then shifts the position to Kousei, much to Kousei's and Nagi’s dismay. Kousei corrects every aspect of Nagi's playing, which makes Nagi upset and retorts how he thinks he knows it all. In the later parts of the anime, Nagi warms up to Kousei, comforting and trying to make him smile while he was upset. Nagi holds deep respect for Kousei and admires him for his piano playing skills.",
+    "image": {
+      "profile": "assets/images/characters/nagi/profile.jpg"
+    }
+  },
+  {
+    "id": 11,
+    "type": "support",
+    "name": {
+      "first": "Saki",
+      "middle": null,
+      "last": "Arima",
+      "full": "Saki Arima",
+      "native": "有馬 早希",
+      "alternative": []
+    },
+    "gender": "Female",
+    "dateOfBirth": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "age": null,
+    "description": "<p>Saki is Kousei's strict mother who demands Kousei play the piano to perfection, often beating him up for small mistakes. While she did not plan to make Kousei a pianist at first, her realization of Kousei's talents and her own illness made her decide to give Kousei a strict foundation in piano in order to be able to find his own style, and a living, afterwards.</p>",
+    "appearance": "Saki has shoulder-length brown hair and dark eyes. She was either depicted with no eyes at all or she has brown eyes. In some parts, she is seen with nasal canulla used to deliver supplemental oxygen for her illness and she is usually seen sitting in a wheelchair.",
+    "personality": "Although Saki was strict, harsh, and horribly abusive towards Kousei Arima, it came from a place of misguided love. While Kousei believed she hated him after he wished her dead and imagined her ghost taunting and punishing him for his wish, he realised that it was all in his head and his mother loved him very much. Before her death, she was shown to fret over whether Kousei would get hurt or manage to make a living.",
+    "image": {
+      "profile": "assets/images/characters/saki/profile.png"
+    }
+  },
+  {
+    "id": 12,
+    "type": "background",
+    "name": {
+      "first": "Yuriko",
+      "middle": null,
+      "last": "Ochiai",
+      "full": "Yuriko Ochiai",
+      "native": "落合由里子",
+      "alternative": []
+    },
+    "gender": "Female",
+    "dateOfBirth": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "age": null,
+    "description": "Yuriko Ochiai is a minor character appearing in the Shigatsu wa Kimi no Uso series. She is the piano instructor of Emi Igawa.",
+    "appearance": "Yuriko has short dark brown hair (she is depicted wearing a ponytail tied back during the Maihou Piano Competition in the manga) and brown eyes.",
+    "personality": "Yuriko is shown to be a caring piano instructor to Emi Igawa.",
+    "image": {
+      "profile": "assets/images/characters/yuriko/profile.jpeg"
+    }
+  },
+  {
+    "id": 13,
+    "type": "background",
+    "name": {
+      "first": "Akira",
+      "middle": null,
+      "last": "Takayanagi",
+      "full": "Akira Takayanagi",
+      "native": "高柳明",
+      "alternative": []
+    },
+    "gender": "Male",
+    "dateOfBirth": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "age": null,
+    "description": "Akira Takayanagi is a character appearing in the Shigatsu wa Kimi no Uso series. He is Takeshi Aiza’s piano mentor.",
+    "appearance": "Akira has black hair, small black eyes ad thin-rimmed rectangular glasses.",
+    "personality": "Akira has been called <q>very shallow</q> by several judges at the Maihou Competition.",
+    "image": {
+      "profile": "assets/images/characters/akira/profile.jpg"
+    }
+  },
+  {
+    "id": 14,
+    "type": "background",
+    "name": {
+      "first": "Saitou",
+      "middle": null,
+      "last": null,
+      "full": "Saitou",
+      "native": "斎藤",
+      "alternative": []
+    },
+    "gender": "Male",
+    "dateOfBirth": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "age": 15,
+    "description": "Saitou is a minor character in the Shigatsu wa Kimi no Uso series. He is Tsubaki Sawabe's baseball-playing senior and her target of admiration. ",
+    "appearance": "Saitou is an attractive teenage boy with neatly trimmed dark brown hair and dark brown eyes. He can be seen wearing his school uniform throughout the series. ",
+    "personality": "According to Tsubaki Sawabe, Saitou is a hot and dependable who is admired by many girls. Throughout the anime, he maintains a friendly and outgoing personality who is understanding and did not get jealous even though Tsubaki constantly rant and talk about Kousei Arima. Later on in the anime, he broke up with Tsubaki, stating he likes the manager of his baseball club and that both of them are too alike to be in a relationship. Although, it is likely that he broke up with Tsubaki because he didn't want to see her suffer. Tsubaki also states that she has a crush on him. Apparently, he also had a crush on Tsubaki, though it is not known when he started having a crush on her. ",
+    "image": {
+      "profile": "assets/images/characters/saitou/profile.png"
+    }
+  },
+  {
+    "id": 15,
+    "type": "background",
+    "name": {
+      "first": "Ryouko",
+      "middle": null,
+      "last": "Miyazono",
+      "full": "Ryouko Miyazono",
+      "native": "宮園 涼子",
+      "alternative": []
+    },
+    "gender": "Female",
+    "dateOfBirth": {
+      "year": null,
+      "month": 3,
+      "day": 31
+    },
+    "age": null,
+    "description": "Ryouko Miyazono is a character appearing in the Shigatsu wa Kimi no Uso series. She is the wife of Yoshiyuki Miyazono, and the mother of Kaori Miyazono. Ryouko owns a bakery called the <q>Ma Fille Pâtisserie</q>.",
+    "appearance": "Ryouko has light brown hair pulled back into a ponytail, and pale indigo eyes.",
+    "personality": "Ryouko is a kind and caring woman, who cares very much for her daughter Kaori. She is fun-loving, and spoils Kaori and her friends with treats from her bakery.",
+    "image": {
+        "profile": "assets/images/characters/ryouko/profile.jpg"
+      }
+  },
+  {
+    "id": 16,
+    "type": "background",
+    "name": {
+      "first": "Yoshiyuki",
+      "middle": null,
+      "last": "Miyazono",
+      "full": "Yoshiyuki Miyazono",
+      "native": "宮園 好是",
+      "alternative": []
+    },
+    "gender": "Male",
+    "dateOfBirth": {
+      "year": null,
+      "month": null,
+      "day": null
+    },
+    "age": null,
+    "description": "Yoshiyuki Miyazono is a character appearing in the Shigatsu wa Kimi no Uso series. He is the husband of Ryouko Miyazono, and the father of Kaori Miyazono.",
+    "appearance": "Yoshiyuki has dark brown hair and dark brown eyes. He has a broken pencil moustache.",
+    "personality": "He loves and cares for his daughter deeply and the same goes for his wife. Kaori also said that her parents were Kousei's fans. Despite the fact that he cares for Kaori he accepted her decision to opt for the surgery which might kill her if it failed and was happy that Kaori wanted to stand on her own feet again.",
+    "image": {
+        "profile": "assets/images/characters/yoshiyuki/profile.jpg"
+      }
+  }
+]
