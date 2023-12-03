@@ -376,14 +376,96 @@ div.metadata p {
 
 .conclude img {
   width: 100%;
-  filter: blur(5px) grayscale(50%);
+  filter: blur(5px) grayscale(50%) saturate(80%);
 }
 
-.conclude q {
+.conclude .quotes {
   position: absolute;
-  left: 33vw;
-  top: 20px;
   font-size: calc(1em + 2vw);
+  display: inline-flex;
+  opacity: 0.8;
+  width: 99%;
+  height: 50vw;
+  left: 0;
+}
+
+.quotes span#k {
+  font-weight: 600;
+  background-image: linear-gradient(to right, #0c294b 0, #63bcf6 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+.quotes span#m {
+  font-weight: 600;
+  background-image: linear-gradient(to right, #fbe6e1 0, #e9b7a9 60%, #fdb4a2 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+#q1 {
+  position: absolute;
+  left: 0.5em;
+  top: 22vw;
+  font-size: calc(0.3em + 2vw);
+  font-weight: 600;
+  background-image: linear-gradient(to right, #89cae6 0, #99a1e9 50%, transparent 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+#q2 {
+  position: absolute;
+  left: 10vw;
+  top: 4vw;
+  font-weight: 600;
+  background-image: linear-gradient(
+    to right,
+    #fcba39 0,
+    #cb9b51 22%,
+    #e3c946 40%,
+    #de9139 50%,
+    #e2c842 65%,
+    #cb9b51 78%,
+    #fcba39 100%
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+#q3 {
+  position: absolute;
+  left: 68vw;
+  top: 10vw;
+  width: 27vw;
+  text-align: center;
+}
+
+#q4 {
+  position: absolute;
+  left: 5em;
+  top: 17vw;
+  font-size: calc(1em - 1vw);
+  font-weight: 600;
+  background-image: linear-gradient(to right, #fae4da 0, #f8f2f4 50%, #183e64 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+}
+
+#q5 {
+  position: absolute;
+  left: 1em;
+  top: 10vw;
+  font-weight: 600;
+  background-image: linear-gradient(to right, #5eb6ce 0, #6387a3 50%, #7491a5 100%);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
 }
 
 @keyframes fade-in {

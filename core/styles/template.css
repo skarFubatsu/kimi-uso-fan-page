@@ -178,6 +178,73 @@ ul.navigation .activeNow {
   animation: glow-bar 20s infinite ease-in-out alternate;
 }
 
+footer {
+  position: relative;
+  top: 40vw;
+  left: 0;
+  backdrop-filter: blur(40px);
+  box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0.34) inset, 0 0 40px 30px rgba(0, 0, 0, 0.23);
+  border-radius: 20px;
+  z-index: 2;
+  background-image: linear-gradient(
+    to left bottom,
+    transparent 0,
+    transparent 40%,
+    #fcbb3994 100%
+  );
+}
+
+footer .gold {
+  background-image: linear-gradient(
+    to right,
+    #fcba39 0,
+    #cb9b51 22%,
+    #e3c946 40%,
+    #de9139 50%,
+    #e2c842 65%,
+    #cb9b51 78%,
+    #fcba39 100%
+  );
+  opacity: 0.5;
+  z-index: -1;
+  height: 2px;
+  width: calc(100% - 40px);
+  position: relative;
+  left: 20px;
+  
+}
+
+footer .container {
+  display: inline-flex;
+  margin-left: 30px;
+  margin-bottom: 20px;
+  height: calc(16vw + 10px);
+}
+
+footer h5 {
+  font-size: calc(1em + 1vw);
+  padding: 5px;
+  margin: 0;
+  margin-top: 12px;
+  color: var(--navGlowColor);
+}
+
+footer ul {
+  list-style-type: none;
+  padding-left: 20px;
+  margin: 0;
+  margin-bottom: 20px;
+}
+
+footer ul a {
+  text-decoration: none;
+  transition: color 200ms;
+}
+
+footer ul a:hover {
+  color: var(--navMenuItemHoverColor);
+}
+
 @keyframes glow-bar {
   0%,
   100% {
