@@ -1,0 +1,95 @@
+:root {
+  --avatar-width: 512px;
+  --resize-factor: 0.45;
+  --index: 2;
+}
+
+* {
+  z-index: var(--index);
+  color: whitesmoke;
+}
+
+main {
+  border-color: whitesmoke;
+}
+
+.mask {
+  position: absolute;
+  padding: 0;
+  margin: 2px;
+  backdrop-filter: blur(2px);
+  background-image: linear-gradient(to top, black 0, transparent 100%);
+  left: 0;
+  top: 0;
+  width: calc(100% - 4px);
+  z-index: calc(var(--index) - 1);
+  height: 340px;
+  border-radius: 21px;
+}
+
+.content .banner {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 345px;
+  margin: 0;
+  padding: 0;
+  border-radius: 23px;
+  border: 3px solid whitesmoke;
+  z-index: calc(var(--index) - 2);
+}
+
+.avatar {
+  position: relative;
+  width: calc(var(--avatar-width) * var(--resize-factor));
+  border-radius: calc(var(--avatar-width) * var(--resize-factor));
+  border: 5px solid;
+  top: 190px;
+}
+
+.name {
+  position: relative;
+  top: -10px;
+  left: calc(var(--avatar-width) * var(--resize-factor) + 15px);
+  font-size: 3.4rem;
+  width: 70%;
+  font-family: RobotoBlack;
+}
+
+.flex-alt {
+  position: relative;
+  left: calc(var(--avatar-width) * var(--resize-factor) + 13px);
+  top: -20px;
+  display: flex;
+  flex-wrap: wrap;
+  width: 70%;
+}
+
+.role,
+.alt {
+  padding: 5px 10px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 30px;
+  font-size: 1rem;
+  background-color: #727272;
+  color: #fee1a9;
+  font-family: RobotoItalic;
+}
+
+.role {
+  background-color: #3d3d3d;
+  color: #fcb535;
+  font-family: RobotoBold;
+}
+
+.tabular-info {
+  float: right;
+  margin-top: 75px;
+  border-collapse: collapse;
+  border: 2px solid;
+  padding: 15px;
+  margin-left: 25px;
+  margin-right: 10px;
+}

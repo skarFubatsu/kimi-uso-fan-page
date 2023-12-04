@@ -1,10 +1,11 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Characters | Kimi Uso</title>
+    <title>Character | Kimi Uso</title>
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="styles/template.css" />
     <link rel="stylesheet" href="styles/characters.css" />
+    <link rel="stylesheet" href="styles/character.css" />
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
     <script type="text/javascript" src="scripts/display.js"></script>
   </head>
@@ -14,7 +15,7 @@
       <nav>
         <ul class="navigation">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#" class="activeNow">Characters</a></li>
+          <li><a href="characters.html" class="activeNow">Characters</a></li>
           <li><a href="#">Forum</a></li>
           <li><a href="#">About</a></li>
         </ul>
@@ -22,10 +23,59 @@
       <div class="line"><div class="light"></div></div>
     </header>
     <main>
-      <div class="contents"></div>
+      <div class="content" id="x106">
+        <div class="mask"></div>
+        <img src="" class="banner" />
+        <img src="" class="avatar" />
+        <div class="details">
+          <h1 class="name" id="x107"></h1>
+          <div class="flex-alt" id="x108">
+          </div>
+          <table class="tabular-info" id="x99">
+            <tr>
+              <th colspan="2">Other Details</th>
+            </tr>
+          </table>
+          <div class="desc" id="x109">
+            <h2>Description</h2>
+          </div>
+          <div class="appr" id="x110">
+            <h2>Appearance</h2>
+          </div>
+          <div class="perso" id="x111">
+            <h2>Personality</h2>
+          </div>
+        </div>
+      </div>
     </main>
+    <aside>
+      <h2>Table of Contents</h2>
+      <ol>
+        <li>
+          <a href="#x106">Introduction</a>
+        </li>
+        <li>
+          <a href="#x107">Name</a>
+        </li>
+        <li>
+          <a href="#x108">Alternative Names & Character Role</a>
+        </li>
+        <li>
+          <a href="#x109">Description</a>
+        </li>
+        <li>
+          <a href="#x110">Appearance</a>
+        </li>
+        <li>
+          <a href="#x111">Personality</a>
+        </li>
+        <li>
+          <a href="#x99">Other Details</a>
+        </li>
+      </ol>
+    </aside>
     <script>
-        $.ajax({
+      $.ajax({
         type: "GET",
         url: "assets/data/characters.json",
         dataType: "json",

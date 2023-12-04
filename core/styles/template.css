@@ -52,6 +52,7 @@
   scroll-behavior: smooth;
   font-family: RobotoRegular;
   color: #f7efda;
+  scroll-margin-block-start: 5vw;
 }
 
 b {
