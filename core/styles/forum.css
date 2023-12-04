@@ -1,0 +1,125 @@
+main {
+  position: absolute;
+  top: 5vw;
+  margin-left: 30px;
+  border-radius: 25px;
+  width: 72vw;
+  border: 5px solid #2a2623;
+  border-radius: 25px;
+  background-color: #ada3a28b;
+}
+
+body {
+  background: url("../assets/images/kimiUsoMangaBackground.jpeg") no-repeat;
+  background-size: cover;
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  font-family: RobotoBlack;
+  font-size: calc(0.5em + 4vw);
+  text-align: center;
+  font-weight: 600;
+  background-image: linear-gradient(
+    to right,
+    #2a2625 0,
+    #6978a7 50%,
+    #616c94 70%,
+    #8091b6 75%,
+    #32334c 100%
+  );
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  backdrop-filter: blur(15px);
+  border-radius: 24px;
+}
+
+.messages {
+  padding: 10px;
+  margin: 10px 15px;
+  overflow-y: auto;
+  overflow-x: hidden;
+  width: 70vw;
+  height: 34vw;
+  mask: linear-gradient(
+    to bottom,
+    transparent 0,
+    rgba(0, 0, 0, 0.649) 6%,
+    black 15%,
+    black 90%,
+    transparent 100%
+  );
+}
+
+.message {
+  position: relative;
+  display: flex;
+  width: 100%;
+  left: 10px;
+  flex-wrap: wrap;
+  margin: 10px;
+  margin-bottom: 25px;
+}
+
+.message:first-child {
+    margin-top: 70px;
+}
+
+.message:last-child {
+    margin-bottom: 70px;
+}
+
+.avatar {
+  width: 64px;
+  border-radius: 32px;
+  height: 64px;
+  position: relative;
+  place-self: end;
+  border: 3px solid #67719a;
+}
+
+.message-bubble {
+  --radius: 25px;
+  --tail: 30px;
+  --direction: 0%;
+
+  max-width: 62vw;
+  padding: calc(2 * var(--radius) / 3);
+  mask: radial-gradient(var(--tail) at var(--direction) 0, #0000 98%, #000 102%) var(--direction)
+      100% / calc(100% - var(--radius)) var(--tail) no-repeat,
+    conic-gradient(at var(--radius) var(--radius), #000 75%, #0000 0) calc(var(--radius) / -2)
+      calc(var(--radius) / -2) padding-box,
+    radial-gradient(50% 50%, #000 98%, #0000 101%) 0 0 / var(--radius) var(--radius) space
+      padding-box;
+  background: linear-gradient(135deg, #2a2625, #788ab6) border-box;
+  color: #fff;
+  border-left: var(--tail) solid #0000;
+}
+
+.name {
+    padding: 0;
+    margin: 0;
+    color: #b7b8cf;
+    font-family: RobotoBlack;
+    letter-spacing: 1px;
+    font-size: 1.5rem;
+}
+
+.nbr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(
+        to right,
+        transparent 0,
+        #7d87ac 10%,
+        transparent 100%
+    );
+}
+
+.comment {
+    color: #d8d1da;
+    font-family: RobotoItalic;
+    font-size: 1.2rem;
+}
