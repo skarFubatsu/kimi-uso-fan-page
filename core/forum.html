@@ -5,6 +5,11 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="styles/template.css" />
     <link rel="stylesheet" href="styles/forum.css" />
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script type="text/javascript" src="scripts/avatar.js"></script>
+    <script type="text/javascript" src="scripts/comment.js"></script>
   </head>
   <body>
     <header>
@@ -13,59 +18,55 @@
         <ul class="navigation">
           <li><a href="index.html">Home</a></li>
           <li><a href="characters.html">Characters</a></li>
-          <li><a href="#" class="activeNow">Forum</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="forum.html" class="activeNow">Forum</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </nav>
       <div class="line"><div class="light"></div></div>
     </header>
-    <div class="mask"></div>
     <main>
-      <h1>What People Have to say?</h1>
-      <div class="messages">
-        <div class="message">
-          <img src="assets/images/characters/zoro/avatar.jpeg" alt="" class="avatar" />
-          <div class="message-bubble">
-            <h2 class="name">Zoro Pirate yy pp</h2>
-            <hr class="nbr" />
-            <p class="comment">
-              Fantastic AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA aaaaaaaaaaaaaaaaaaaaa
-            </p>
-          </div>
-        </div>
-        <div class="message">
-          <img src="assets/images/characters/zoro/avatar.jpeg" alt="" class="avatar" />
-          <div class="message-bubble">
-            <h2 class="name">Zoro</h2>
-            <hr class="nbr" />
-            <p class="comment">Fantastic AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-          </div>
-        </div>
-        <div class="message">
-          <img src="assets/images/characters/zoro/avatar.jpeg" alt="" class="avatar" />
-          <div class="message-bubble">
-            <h2 class="name">Zoro</h2>
-            <hr class="nbr" />
-            <p class="comment">Fantastic AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-          </div>
-        </div>
-        <div class="message">
-          <img src="assets/images/characters/zoro/avatar.jpeg" alt="" class="avatar" />
-          <div class="message-bubble">
-            <h2 class="name">Zoro</h2>
-            <hr class="nbr" />
-            <p class="comment">Fantastic AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-          </div>
-        </div>
-        <div class="message">
-          <img src="assets/images/characters/zoro/avatar.jpeg" alt="" class="avatar" />
-          <div class="message-bubble">
-            <h2 class="name">Zoro</h2>
-            <hr class="nbr" />
-            <p class="comment">Fantastic AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA</p>
-          </div>
+      <h1>What People Have to Say?</h1>
+      <div class="messages"></div>
+    </main>
+    <form class="comment-form" onsubmit="return extractForm()" method="post">
+      <div class="form-label">Your Thoughts?</div>
+      <div class="form-row">
+        <div class="input-data">
+          <input type="text" required name="name" />
+          <div class="underline"></div>
+          <label for="">Display Name</label>
         </div>
       </div>
-    </main>
+      <div class="form-row">
+        <div class="input-data textarea">
+          <textarea rows="8" cols="80" required name="comment"></textarea>
+          <div class="underline"></div>
+          <label for="">Write your message</label>
+        </div>
+      </div>
+      <div class="av-la">
+        <label for="">Select an Avatar</label>
+      </div>
+      <div class="avatars-container">
+        <input type="hidden" name="avatar" value="" id="avatar-choice" />
+      </div>
+      <div class="form-row">
+        <button class="button" role="button">Post Comment</button>
+      </div>
+    </form>
+    <script>
+      $.ajax({
+        type: "GET",
+        url: "assets/data/comments.json",
+        dataType: "json",
+        success: (data) => loadComments(data),
+      });
+      $.ajax({
+        type: "GET",
+        url: "assets/data/avatars.json",
+        dataType: "json",
+        success: (data) => loadAvatars(data),
+      });
+    </script>
   </body>
 </html>

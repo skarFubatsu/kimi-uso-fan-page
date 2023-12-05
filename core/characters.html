@@ -5,7 +5,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="stylesheet" href="styles/template.css" />
     <link rel="stylesheet" href="styles/characters.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/display.js"></script>
   </head>
   <body>
@@ -14,15 +16,16 @@
       <nav>
         <ul class="navigation">
           <li><a href="index.html">Home</a></li>
-          <li><a href="#" class="activeNow">Characters</a></li>
-          <li><a href="#">Forum</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="characters.html" class="activeNow">Characters</a></li>
+          <li><a href="forum.html">Forum</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </nav>
       <div class="line"><div class="light"></div></div>
     </header>
     <main>
       <div class="contents">
+        <div class="box"></div>
         <h1>Characters</h1>
         <hr />
         <h2 id="main">Main Characters</h2>
@@ -35,30 +38,75 @@
         <div class="background-char card-container"></div>
       </div>
     </main>
-    <aside>
-      <h2>Table of Contents</h2>
-      <ol>
-        <li>
-          <a href="#main">Main Characters</a>
-          <ul class="main-char-toc"></ul>
-        </li>
-        <li>
-          <a href="#supporting">Supporting Characters</a>
-          <ul class="supporting-char-toc"></ul>
-        </li>
-        <li>
-          <a href="#background">Background Characters</a>
-          <ul class="background-char-toc"></ul>
-        </li>
-      </ol>
-    </aside>
+    <div class="side-scroll">
+      <aside>
+        <h2>Table of Contents</h2>
+        <ol>
+          <li>
+            <a href="#main">Main Characters</a>
+            <ul class="main-char-toc"></ul>
+          </li>
+          <li>
+            <a href="#supporting">Supporting Characters</a>
+            <ul class="supporting-char-toc"></ul>
+          </li>
+          <li>
+            <a href="#background">Background Characters</a>
+            <ul class="background-char-toc"></ul>
+          </li>
+        </ol>
+      </aside>
+    </div>
+    <footer>
+      <div class="gold"></div>
+      <div class="container">
+        <section class="foot-home">
+          <h5>Home</h5>
+          <ul>
+            <li><a href="#top">Landing</a></li>
+            <li><a href="#details">Details</a></li>
+            <li><a href="#intro">Introduction</a></li>
+            <li><a href="#syno-misc">Synopsis</a></li>
+            <li><a href="#syno-misc">Miscellaneous</a></li>
+          </ul>
+        </section>
+        <section class="characters">
+          <h5>Characters</h5>
+          <ul>
+            <li><a href="characters.html#main">Main Characters</a></li>
+            <li><a href="characters.html#supporting">Side Characters</a></li>
+            <li><a href="characters.html#background">Background Characters</a></li>
+          </ul>
+        </section>
+        <section class="quick-ref">
+          <h5>Quick Links</h5>
+          <ul>
+            <li><a href="forum.html">Forum</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="http://www.kimiuso.jp/">Official Page</a></li>
+          </ul>
+        </section>
+      </div>
+    </footer>
     <script>
+      // Retrieve data and populate characters
       $.ajax({
         type: "GET",
         url: "assets/data/characters.json",
         dataType: "json",
         success: (data) => formGrid(data),
       });
+
+      // scroll behavior when openned via link ref
+      setTimeout(() => {
+        hash = window.location.hash;
+        if (hash) {
+          $(hash)[0].scrollIntoView({
+            behavior: "smooth",
+            block: "start",
+          });
+        }
+      }, 100);
     </script>
   </body>
 </html>

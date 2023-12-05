@@ -181,18 +181,14 @@ ul.navigation .activeNow {
 
 footer {
   position: relative;
-  top: 40vw;
-  left: 0;
+  top: 41vw;
+  left: -8px;
   backdrop-filter: blur(40px);
-  box-shadow: 0 0 10px 20px rgba(0, 0, 0, 0.34) inset, 0 0 40px 30px rgba(0, 0, 0, 0.23);
-  border-radius: 20px;
+  box-shadow: 0 0 70px 30px rgba(0, 0, 0, 0.34) inset, 0 0 40px 30px rgba(0, 0, 0, 0.23);
+  border-radius: 20px 20px 0 0;
   z-index: 2;
-  background-image: linear-gradient(
-    to left bottom,
-    transparent 0,
-    transparent 40%,
-    #fcbb3994 100%
-  );
+  background-color: #2a2929;
+  width: 100vw;
 }
 
 footer .gold {
@@ -212,7 +208,6 @@ footer .gold {
   width: calc(100% - 40px);
   position: relative;
   left: 20px;
-  
 }
 
 footer .container {
@@ -222,12 +217,27 @@ footer .container {
   height: calc(16vw + 10px);
 }
 
+footer .container section {
+  margin-left: 200px;
+  background-color: #343333;
+  padding: 20px;
+  padding-top: 10px;
+  padding-right: 30px;
+  margin-top: 10px;
+  border-radius: 25px;
+}
+
 footer h5 {
   font-size: calc(1em + 1vw);
   padding: 5px;
   margin: 0;
-  margin-top: 12px;
+  padding-top: 0px;
   color: var(--navGlowColor);
+}
+
+footer h5 a {
+  color: inherit;
+  text-decoration: none;
 }
 
 footer ul {
@@ -240,6 +250,14 @@ footer ul {
 footer ul a {
   text-decoration: none;
   transition: color 200ms;
+}
+
+footer li {
+  padding: 5px 10px;
+  margin-bottom: 5px;
+  background-color: #878787;
+  border-radius: 20px;
+  text-align: center;
 }
 
 footer ul a:hover {

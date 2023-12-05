@@ -13,6 +13,11 @@ main {
   border-color: whitesmoke;
 }
 
+.buff {
+  height: 400px;
+  width: 1px;
+}
+
 .mask {
   position: absolute;
   padding: 0;
@@ -92,4 +97,8 @@ main {
   padding: 15px;
   margin-left: 25px;
   margin-right: 10px;
+}
+
+.side-scroll {
+  height: 50vw;
 }

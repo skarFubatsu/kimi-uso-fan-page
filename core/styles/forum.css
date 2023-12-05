@@ -1,3 +1,8 @@
+* {
+  box-sizing: border-box;
+  color: #2a2623;
+}
+
 main {
   position: absolute;
   top: 5vw;
@@ -61,14 +66,16 @@ h1 {
   flex-wrap: wrap;
   margin: 10px;
   margin-bottom: 25px;
+  opacity: 0;
+  transition: opacity 500ms;
 }
 
 .message:first-child {
-    margin-top: 70px;
+  margin-top: 70px;
 }
 
 .message:last-child {
-    margin-bottom: 70px;
+  margin-bottom: 70px;
 }
 
 .avatar {
@@ -99,27 +106,202 @@ h1 {
 }
 
 .name {
-    padding: 0;
-    margin: 0;
-    color: #b7b8cf;
-    font-family: RobotoBlack;
-    letter-spacing: 1px;
-    font-size: 1.5rem;
+  padding: 0;
+  margin: 0;
+  color: #b7b8cf;
+  font-family: RobotoBlack;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
 }
 
 .nbr {
-    border: 0;
-    height: 1px;
-    background-image: linear-gradient(
-        to right,
-        transparent 0,
-        #7d87ac 10%,
-        transparent 100%
-    );
+  border: 0;
+  height: 1px;
+  background-image: linear-gradient(to right, transparent 0, #7d87ac 10%, transparent 100%);
 }
 
 .comment {
-    color: #d8d1da;
-    font-family: RobotoItalic;
-    font-size: 1.2rem;
+  color: #d8d1da;
+  font-family: RobotoItalic;
+  font-size: 1.2rem;
+}
+
+.comment-form {
+  position: absolute;
+  left: 72vw;
+  top: 9vw;
+  backdrop-filter: blur(5px);
+  border: 5px solid #2a2623;
+  border-radius: 25px;
+  padding: 30px 0 0 0;
+  background-color: whitesmoke;
+  width: 27vw;
+}
+
+.comment-form .form-label {
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: RobotoBold;
+}
+
+.comment-form .form-row {
+  display: flex;
+  margin: 32px 0;
+}
+
+.comment-form .form-row .input-data {
+  width: 100%;
+  height: 40px;
+  margin: 0 20px;
+  position: relative;
+}
+
+.comment-form .form-row .textarea {
+  height: 70px;
+}
+
+.input-data input,
+.textarea textarea {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  font-size: 17px;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+  background-color: whitesmoke;
+  outline: none;
+}
+
+.input-data input:focus ~ label,
+.textarea textarea:focus ~ label,
+.input-data input:valid ~ label,
+.textarea textarea:valid ~ label {
+  transform: translateY(-20px);
+  font-size: 14px;
+  color: goldenrod;
+}
+
+.textarea textarea {
+  resize: none;
+  padding-top: 10px;
+}
+
+.input-data label {
+  position: absolute;
+  pointer-events: none;
+  bottom: 10px;
+  font-size: 16px;
+  transition: all 0.3s ease;
+}
+
+.textarea label {
+  width: 100%;
+  bottom: 40px;
+  background: whitesmoke;
+}
+
+.input-data .underline {
+  position: absolute;
+  bottom: 0;
+  height: 2px;
+  width: 100%;
+}
+
+.input-data .underline:before {
+  position: absolute;
+  content: "";
+  height: 2px;
+  width: 100%;
+  background: gold;
+  transform: scaleX(0);
+  transform-origin: center;
+  transition: transform 0.3s ease;
+}
+
+.input-data input:focus ~ .underline:before,
+.input-data input:valid ~ .underline:before,
+.textarea textarea:focus ~ .underline:before,
+.textarea textarea:valid ~ .underline:before {
+  transform: scale(1);
+}
+
+.avatars-container {
+  display: flex;
+  padding: 0 10px;
+  margin: 10px;
+  overflow-x: scroll;
+  height: 80px;
+  margin-bottom: 20px;
+}
+
+.avatars-container .avatar {
+  margin: 0 10px;
+  place-self: start;
+  transition: border 300ms;
+}
+
+.selected {
+  border-color: goldenrod;
+  border-width: 5px;
+}
+
+.checkbox-input {
+  clip: rect(0 0 0 0);
+  clip-path: inset(100%);
+  height: 1px;
+  overflow: hidden;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+}
+
+.button {
+  align-items: center;
+  appearance: none;
+  background-color: #fff;
+  border-radius: 24px;
+  border-style: none;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 3px 5px -1px, rgba(0, 0, 0, 0.14) 0 6px 10px 0,
+    rgba(0, 0, 0, 0.12) 0 1px 18px 0;
+  color: #3c4043;
+  cursor: pointer;
+  fill: currentcolor;
+  font-size: 1.1rem;
+  font-weight: 600;
+  height: 48px;
+  justify-content: center;
+  letter-spacing: 0.25px;
+  line-height: normal;
+  max-width: 100%;
+  overflow: visible;
+  padding: 5px 24px;
+  position: relative;
+  text-align: center;
+  transition: box-shadow 280ms cubic-bezier(0.4, 0, 0.2, 1), opacity 15ms linear 30ms,
+    transform 270ms cubic-bezier(0, 0, 0.2, 1) 0ms, color 200ms;
+  z-index: 0;
+  margin-left: 8vw;
+  margin-bottom: 10px;
+}
+
+.button:hover {
+  background: #fffcf6;
+  color: #fcba39;
+}
+
+.button:active {
+  box-shadow: 0 4px 4px 0 rgb(60 64 67 / 30%), 0 8px 12px 6px rgb(60 64 67 / 15%);
+  outline: none;
+}
+
+.button:focus {
+  outline: none;
+  border: 2px solid #fcba39;
+}
+
+.av-la label {
+  position: relative;
+  left: 20px;
+  font-size: 1.2em;
+  font-family: RobotoItalic;
 }

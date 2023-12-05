@@ -1,0 +1,100 @@
+.github-button {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 15px;
+  background-color: #f5f5f5;
+  font-size: 14px;
+  text-decoration: none;
+  transition: background-color 0.3s, color 0.3s;
+  margin-left: 20px;
+  margin-top: 290px;
+}
+
+.github-button:hover {
+  background-color: #24292f;
+}
+
+.github-button img.sl {
+  height: 30px;
+  width: 30px;
+}
+
+.github-button img#glogo {
+  width: 90px;
+  height: 26px;
+}
+
+.source {
+  background-color: #238636;
+  border-color: #238636;
+}
+
+.label b {
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-left: 10px;
+}
+
+.card {
+  position: absolute;
+  top: 10vw;
+  left: 34vw;
+  background-color: #222222;
+  padding: 50px;
+  border-radius: 25px;
+  border: 2px solid #fcba39;
+}
+
+.card img {
+  width: 126px;
+  border-radius: 64px;
+  margin-left: auto;
+  position: relative;
+}
+
+.avatar {
+  position: relative;
+  left: 16em;
+  border: 3px solid whitesmoke;
+}
+
+.details {
+  height: 100px;
+  position: relative;
+  top: -9em;
+}
+
+h1,
+h5 {
+  font-family: RobotoBlack;
+  font-weight: 600;
+  background-image: linear-gradient(
+    to right,
+    #fcba39 0,
+    #cb9b51 22%,
+    #e3c946 40%,
+    #de9139 50%,
+    #e2c842 65%,
+    #cb9b51 78%,
+    #fcba39 100%
+  );
+  color: transparent;
+  background-clip: text;
+}
+
+.details h5 {
+  margin-left: 20px;
+  margin-top: -10px;
+  font-size: 1.2em;
+}
+
+.details q {
+  font-size: 1.5em;
+}
+
+.buttons {
+  position: relative;
+  top: -16em;
+}

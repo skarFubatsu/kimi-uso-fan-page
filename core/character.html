@@ -6,7 +6,9 @@
     <link rel="stylesheet" href="styles/template.css" />
     <link rel="stylesheet" href="styles/characters.css" />
     <link rel="stylesheet" href="styles/character.css" />
-    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script type="text/javascript" src="scripts/display.js"></script>
   </head>
   <body>
@@ -16,8 +18,8 @@
         <ul class="navigation">
           <li><a href="index.html">Home</a></li>
           <li><a href="characters.html" class="activeNow">Characters</a></li>
-          <li><a href="#">Forum</a></li>
-          <li><a href="#">About</a></li>
+          <li><a href="forum.html">Forum</a></li>
+          <li><a href="about.html">About</a></li>
         </ul>
       </nav>
       <div class="line"><div class="light"></div></div>
@@ -29,8 +31,7 @@
         <img src="" class="avatar" />
         <div class="details">
           <h1 class="name" id="x107"></h1>
-          <div class="flex-alt" id="x108">
-          </div>
+          <div class="flex-alt" id="x108"></div>
           <table class="tabular-info" id="x99">
             <tr>
               <th colspan="2">Other Details</th>
@@ -48,32 +49,35 @@
         </div>
       </div>
     </main>
-    <aside>
-      <h2>Table of Contents</h2>
-      <ol>
-        <li>
-          <a href="#x106">Introduction</a>
-        </li>
-        <li>
-          <a href="#x107">Name</a>
-        </li>
-        <li>
-          <a href="#x108">Alternative Names & Character Role</a>
-        </li>
-        <li>
-          <a href="#x109">Description</a>
-        </li>
-        <li>
-          <a href="#x110">Appearance</a>
-        </li>
-        <li>
-          <a href="#x111">Personality</a>
-        </li>
-        <li>
-          <a href="#x99">Other Details</a>
-        </li>
-      </ol>
-    </aside>
+    <div class="side-scroll">
+      <aside>
+        <h2>Table of Contents</h2>
+        <ol>
+          <li>
+            <a href="#x106">Introduction</a>
+          </li>
+          <li>
+            <a href="#x107">Name</a>
+          </li>
+          <li>
+            <a href="#x108">Alternative Names & Character Role</a>
+          </li>
+          <li>
+            <a href="#x109">Description</a>
+          </li>
+          <li>
+            <a href="#x110">Appearance</a>
+          </li>
+          <li>
+            <a href="#x111">Personality</a>
+          </li>
+          <li>
+            <a href="#x99">Other Details</a>
+          </li>
+        </ol>
+      </aside>
+    </div>
+    <div class="buff"></div>
     <script>
       $.ajax({
         type: "GET",

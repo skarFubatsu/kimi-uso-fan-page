@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Forum | Kimi Uso</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <link rel="stylesheet" href="styles/template.css" />
+    <link rel="stylesheet" href="styles/about.css" />
+
+    <script
+      type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="title"><a href="#">KimiUso</a></div>
+      <nav>
+        <ul class="navigation">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="characters.html">Characters</a></li>
+          <li><a href="forum.html">Forum</a></li>
+          <li><a href="about.html" class="activeNow">About</a></li>
+        </ul>
+      </nav>
+      <div class="line"><div class="light"></div></div>
+    </header>
+    <main>
+      <div class="card">
+        <img src="" alt="Dev Avatar" class="avatar" />
+        <div class="details">
+          <h1 class="name"></h1>
+          <h5 class="username"></h5>
+          <h4 class="bio"></h4>
+          <div class="buttons">
+            <a href="" id="gitLink" target="_blank">
+              <div
+                class="github-button"
+                onmouseover="
+                document.gitMark.src='assets/images/svg/github-mark-white.png';
+                document.gitLogo.src='assets/images/svg/GitHub_Logo_White.png';
+            "
+                onmouseout="
+                document.gitMark.src='assets/images/svg/github-mark.png';
+                document.gitLogo.src='assets/images/svg/GitHub_Logo.png';
+            ">
+                <img src="assets/images/svg/github-mark.png" name="gitMark" class="sl" />
+                <img src="assets/images/svg/GitHub_Logo.png" name="gitLogo" id="glogo" /></div
+            ></a>
+            <a href="https://github.com/skarFubatsu/kimi-uso-fan-page" id="gitSource" target="_blank">
+              <div class="github-button source">
+                <img src="assets/images/svg/github-mark-white.png" class="sl" />
+                <div class="label"><b>Source Code</b></div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </main>
+    <script>
+      $.ajax({
+        type: "GET",
+        url: "https://api.github.com/users/skarFubatsu",
+        dataType: "json",
+        success: (data) => {
+            $(".avatar").attr("src", data.avatar_url)
+            $(".name").text(data.name)
+            $(".username").text("@" + data.login)
+            $(".bio").html(`<q>${data.bio}</q>`)
+            $("#gitLink").attr("href", data.html_url)
+
+        },
+      });
+    </script>
+  </body>
+</html>

@@ -11,21 +11,74 @@ main {
   background-color: #222222;
   padding: 10px 30px;
   border-radius: 25px;
-  border: 2px solid yellowgreen;
+  border: 2px solid #fcba39;
   width: 72vw;
 }
 
+main h1,
+main h2,
+aside h2 {
+  color: #de9139;
+  font-family: RobotoBlack;
+  letter-spacing: 1px;
+}
+
+.contents h1 {
+  position: relative;
+  font-size: 4rem;
+  margin-left: 20px;
+  margin-bottom: 5px;
+  margin-top: 15px;
+  z-index: 2;
+}
+
+.contents h2 {
+  font-size: 2em;
+}
+
+.box {
+  position: absolute;
+  clip-path: polygon(57% 47%, 100% 74%, 86% 100%, 9% 98%, 0 46%);
+  width: 440px;
+  height: 110px;
+  background: #383636;
+  top: -15px;
+  left: 10px;
+  z-index: 0;
+}
+
 aside {
-  position: fixed;
+  position: sticky;
   top: 10vw;
   background-color: #222222;
   padding: 10px 30px;
   border-radius: 25px;
-  border: 2px solid yellowgreen;
+  border: 2px solid #fcba39;
+  z-index: 3;
+  margin-left: 30px;
+}
+
+.side-scroll {
+  position: relative;
+  top: 10vw;
+  width: 22vw;
+  height: 140vw;
+}
+
+aside h2 {
+  text-align: center;
 }
 
 aside a {
   text-decoration: none;
+}
+
+aside a:hover {
+  color: #fcba39;
+}
+
+footer {
+  top: 23vw;
 }
 
 .card-container {
@@ -77,6 +130,8 @@ aside a {
   text-wrap: nowrap;
   white-space: nowrap;
   overflow: hidden;
-  color: gold;
+  color: rgb(255, 191, 0);
+  font-family: RobotoItalic;
+  letter-spacing: 1px;
   text-shadow: 0 0 15px black, 10px 0 15px black, -10px -10px 15px black, -10px 10px 10px black;
 }
