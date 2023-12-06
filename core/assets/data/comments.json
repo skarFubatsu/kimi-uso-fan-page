@@ -1,7 +1,23 @@
 [
-    {
-        "name": "AjaX",
-        "comment": "Thank You... for existing ~",
-        "avatar": ""
-    }
+  {
+    "name": "jujuberry",
+    "comment": "If you haven't watched this anime, do it. Don't let the music tag scare you. It left me speechless, also crying... HARD",
+    "avatar": "assets/images/avatars/1.jpg"
+  },
+
+  {
+    "name": "AjaX",
+    "comment": "Thank You... for existing ~",
+    "avatar": "assets/images/characters/kousei/avatar.png"
+  },
+  {
+    "name": "akibora",
+    "comment": "Yeah, this show is a big lie alright.",
+    "avatar": "assets/images/avatars/2.jpg"
+  },
+  {
+    "name": "wilza",
+    "comment": "A Facade of Complexity Hiding Minimal Substance",
+    "avatar": "assets/images/avatars/3.png"
+  }
 ]

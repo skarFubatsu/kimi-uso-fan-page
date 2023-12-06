@@ -8,7 +8,7 @@
       "last": "Arima",
       "full": "Kousei Arima",
       "native": "有馬公生",
-      "alternative": ["Human Metronome"]
+      "alternative": ["Human Metronome", "Friend A"]
     },
     "gender": "Male",
     "dateOfBirth": {
@@ -21,7 +21,9 @@
     "appearance": "Kousei is a teenage boy with short, black hair and dark blue eyes. He is of average height, just a bit taller than Kaori Miyazono by comparison. His school attire is marked by grey pants and coat, along with a light blue shirt and red-and-white tie. Kousei's casual clothing seems to be a dark blue polo shirt with a grey shirt over top, along with dull tan pants.",
     "personality": "As a child, Kousei was a calm and obedient boy. When he is not hanging out with Ryota Watari, Tsubaki Sawabe and Kaori Miyazono, he spends most of his day alone in his thoughts. This dense characteristic makes him oblivious to what is going on around him. For instance, he does not notice the rivalry and resentment his fellow piano competitors had for him nor Tsubaki's crush on him. As well as not noticing the jealousy that Tsubaki was feeling about being separated from him, as she has always cared about him and been with him. He also stares at Kaori for long, thinking how great of a person she is, which she misinterprets as him having perverted thoughts of her. Despite his pessimism, Kousei is a very kind person, and isn't by any means unapproachable. His genuinely kind-hearted nature is seen in his interactions with others, and he treasures his friends. Kousei admires Kaori because she is his opposite; he wishes to become more free-spirited like her. The closer Kousei and Kaori get, the more his feelings for her deepen and the more he opens up to other people. She helps him build his confidence and successfully convinces him to perform again. This allows Kousei to learn and grow into a more confident and less depressed person. ",
     "image": {
-      "profile": "assets/images/characters/kousei/profile.png"
+      "profile": "assets/images/characters/kousei/profile.png",
+      "banner": "assets/images/characters/kousei/banner.jpeg",
+      "avatar": "assets/images/characters/kousei/avatar.png"
     }
   },
   {
@@ -33,7 +35,7 @@
       "last": "Miyazono",
       "full": "Kaori Miyazono",
       "native": "宮園かをり",
-      "alternative": ["Free-spirit"]
+      "alternative": ["Free-spirit", "Sora"]
     },
     "gender": "Female",
     "dateOfBirth": {
@@ -46,7 +48,9 @@
     "personality": "Kaori is a free-spirited violinist whose playing style reflects on her personality. She is independent, unpredictable, and short-tempered. It is also touched upon that she is passive aggressive at times. Kaori likes to depend on herself and only herself but is very outgoing and can be seen as more of a support for others. <br/> While considered a really sloppy violin player from a technical standpoint, such as not following music score sheets the way they are written, Kaori is an amazing violinist. Noted by one of the judges at Towa Hall during the first competition of the series, her pure abilities far exceed the others in the competition. She wields a free-spirited style of performance that emphasizes emotions and artistry over the pure mechanics of music, such playing to specific tempos and dynamics originally intended by the composer. Her style of music is what rekindles Kousei's passion for the piano and inspires him to redefine himself as a musician. <br/> She loves sweets and toys, so much so that when she was temporarily set free from the hospital, her first thing to do was immediately drag Kousei with her to a store filled with sweets and toys. <br/> Despite being very quick to anger, Kaori is a very kind and empathetic person, this is shown throughout her interactions with Kousei as she would often understand how he felt over his abusive mother and how he was afraid to play the piano, her words helped Kousei get through these dark times, her compassion helped him be free from his depression. Her kindness is also shown whenever she is with children, as seen when played hopscotch with them and before that she begs Kousei to play piano with other kids in order to make them happy and finally, when she was at the mall with Kousei, she saw a lost kid and held the child's hand until her mother came to find her and was happy to see them reunite. Overall, despite her anger and somewhat abusive behavior towards Kousei, she is a sweet-natured young girl who encourages Kousei which helped him get over his piano fear. ",
     "appearance": "Kaori Miyazono's height is slightly more than average for a 14 year old girl and has a slender figure. She has blonde wavy hair that reaches down her waist and pale indigo eyes. She is always seen to carry her violin whenever she went with her lovely pink suitcase. As a little girl, she wore a pink dress, and her hair was at chin-length. When she was 12 years old, she wore a pair of black glasses with thick rims and tied her hair in two low pigtails.",
     "image": {
-      "profile": "assets/images/characters/kaori/profile.png"
+      "profile": "assets/images/characters/kaori/profile.png",
+      "banner": "assets/images/characters/kaori/banner.png",
+      "avatar": "assets/images/characters/kaori/avatar.png"
     }
   },
   {
@@ -71,7 +75,9 @@
     "appearance": "Tsubaki has straight chin-length chestnut hair that curls up at the ends where it is parted down the middle and glowing brown eyes. Tsubaki often wears the Sumiya Junior High School uniform, which consists of a blue shirt, a gray blazer and short plaid grey skirt, a red and white striped necktie, navy stockings and brown loafers. She's also seen wearing her softball uniform which consists of a loose white short-sleeved shirt with a red long-sleeved turtleneck shirt underneath and red shorts with a white stripe on each side. She also wears a white baseball cap which she wears backward and ties her hair into a small ponytail.",
     "personality": "Tsubaki is a very kind, caring, outgoing girl who is always willing to help out her friends in their troubles. She can also be seen to get defensive of her female friends, as she was upset when Ryota Watari dumped one of them. She is also adventurous, sometimes to the point of doing dangerous things. Despite her calm and kind nature, Tsubaki is easily angered. In her childhood, when Kousei Arima was learning the piano and was never able to go out to play with her, she would often make things for him and reassured him when his mother got rid of his cat he had found. She is seen as not very girly, having short hair and being a fan of sports. Many of her classmates called her creepy because of her personality and looks, leading her to start thinking that way about herself. She was also thought of as oblivious to her own feelings as seen when she started to like Kousei, her best friend knew it all along and even dropped hints, such as the fact that she was always talking about him, worrying about him and watching out for him. For example, when Kousei was injured, Tsubaki was willing to carry Kousei on her back, despite being hurt herself. Also, Watari and Kaori Miyazono were aware of her feelings for Kousei but didn't say anything. Tsubaki secretly likes Kousei but does not possess the courage to confess to him. She has a hard time realizing her own feelings. She tries to hide her real emotions with a smile but cries in emotional outbursts. She is possessive of people who mean a lot to her (e.g. Kousei) and would respect any decision they want to make, even if it upsets her. She cares about Kousei enough to pick a high school near his so she can still see him and be there by his side.",
     "image": {
-      "profile": "assets/images/characters/tsubaki/profile.png"
+      "profile": "assets/images/characters/tsubaki/profile.png",
+      "banner": "assets/images/characters/tsubaki/banner.png",
+      "avatar": "assets/images/characters/tsubaki/avatar.png"
     }
   },
   {
@@ -96,7 +102,9 @@
     "appearance": "Watari has medium-length light brown hair that is slightly swept to the right (which makes him to look easygoing and approachable) and light caramel brown eyes. He is known for being good looking, which he uses to his advantage. Watari is of average height and build for a junior high student his age. He is also quite lean. His uniform is shown to be pictured slightly disheveled, as his tie is loose around his neck and his shirt not being tucked in, making girls swoon for him.",
     "personality": "Watari is a kind, outgoing and friendly boy. He's a bit of a play-boy, as he seems to prefer girls who are <q>cute</q>, demonstrated as he comments that when he sees Kaori Miyazono for the first time he stated that Tsubaki Sawabe did a good job on finding a cute looking girl. Furthermore, when introduced to Hiroko Seto, he talks to her immediately, calling her <q>Onee-sama</q> and telling Kousei Arima that she's cute. Watari also seems chill on the outside shown when he loses the last game of his middle school career and comforts his team mate. Really Watari is fragile, despite his somewhat superficial and carefree attitude. He also supports his friends as shown when Arima confesses to Watari. Watari tells Arima that <q>it is up to the girl to decide whether you are worth it or not</q>. He supports Arima falling in love with Kaori even though Watari quite likes her. ",
     "image": {
-      "profile": "assets/images/characters/ryouta/profile.png"
+      "profile": "assets/images/characters/ryouta/profile.png",
+      "banner": "assets/images/characters/ryouta/banner.png",
+      "avatar": "assets/images/characters/ryouta/avatar.png"
     }
   },
   {
